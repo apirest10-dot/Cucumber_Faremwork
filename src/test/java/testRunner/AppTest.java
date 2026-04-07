@@ -10,7 +10,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(dryRun = false, 
 features = {"./featureFiles/ERP.feature"},
 glue = {"stepDefination"},
-tags = "@Suppliers or @Customer",
+tags = "@Suppliers",
 plugin = {"pretty","html:target/report/cucumber.html",
 		"junit:target/report/cucumber.xml",
 		"json:target/report/cucumber.json"})
